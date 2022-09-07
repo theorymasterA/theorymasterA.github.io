@@ -1,1 +1,0 @@
-# theorymasterA.github.io
