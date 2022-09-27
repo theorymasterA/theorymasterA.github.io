@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+  <h1></h1>
+  R:<input type="text" value="0" id="r">
+  G:<input type="text" value="0" id="g">
+  B:<input type="text" value="0" id="b">
+    <button>change color</button>
+  <script type="text/javascript">
+	alert("配色处");
+	var h1=document.querySelector("h1");
+    var ok=document.querySelector("button");
+	var input=document.querySelectorAll("input");
+	ok.onclick=function(){
+	var r=document.querySelector("#r").value;
+	var g=document.querySelector("#g").value;
+    var b=document.querySelector("#b").value;
+	h1.style.color="rgb("+r+","+g+","+b+")";
+	}
+  </script>
+ </body>
+</html>
